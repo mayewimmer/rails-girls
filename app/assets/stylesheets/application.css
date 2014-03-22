@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+body {
+  padding-top: 50px;
+  background-image: url('http://i.imgur.com/NjawlBO.png');
+ }
+
+footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+}
+
+table, td, th {
+  vertical-align: middle;
+  border: none;
+}
+
+th {
+  border-bottom: 1px solid #DDD;
+}
+
+h1 {
+  padding-top:50px;
+  padding-bottom: 30px;
+  color: #515151 !important;
+  font-size:28px !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align:center;
+}
+
+p { 
+  color: #474747 !important;
+}
+
+.navbar {
+  padding-top:20px;
+  min-height: 38px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar a.brand {
+  font-size: 18px;
+  padding-left:10px;
+}
+
+.navbar a.brand:hover {
+  color: #fff !important;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.container {
+  padding-bottom:50px;
+}
+
+.container a:hover {
+  color: #a1a1a1;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5); } 
+
+.container p {
+  padding-top:30px;
+}
